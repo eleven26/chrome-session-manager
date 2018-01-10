@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 300px;
+  padding: 0 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: "Helvetica Neue", Helvetica, Arial,
+  "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei UI",
+  "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+
+  .h3 {
+
+  }
+
+  dl {
+    dd {
+      margin-top: 10px;
+
+      input {
+        padding-left: 0;
+        margin-left: 0;
+      }
+      span {
+
+      }
+      a {
+        padding-left: 5px;
+        color: blue;
+        text-decoration: underline;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

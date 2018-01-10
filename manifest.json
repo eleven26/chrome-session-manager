@@ -1,0 +1,30 @@
+{
+	"manifest_version": 2,
+
+	"browser_action": {
+		"default_icon"  : "logo/Icon-48.png",
+		"default_title" : "session manager",
+		"default_popup" : "popup.html"
+	},
+	"description": "session manager",
+	"icons": {
+		"128" : "logo/Icon-128.png",
+		"32"  : "logo/Icon-32.png",
+		"48"  : "logo/Icon-48.png",
+		"16"  : "logo/Icon-16.png"
+	},
+
+	"web_accessible_resources": ["logo/Icon-256.png"],
+	"name": "session manager",
+	"short_name": "session manager",
+	"permissions": [
+		"cookies",
+		"http://*/*",
+    	"storage",
+		"tabs"
+	],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"version": "1.0"
+}
