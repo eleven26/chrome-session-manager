@@ -13,7 +13,6 @@ html, body {
   "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 
   .h3 {
-
   }
 
   dl {
@@ -21,7 +20,8 @@ html, body {
       margin-top: 10px;
 
       input {
-        padding-left: 0;
+        height: 16px;
+        padding-left: 5px;
         margin-left: 0;
       }
       span {
@@ -37,5 +37,42 @@ html, body {
         }
       }
     }
+  }
+}
+
+
+.clear {
+  font-size: 12px;
+  font-weight: normal;
+  color: blue;
+  float: right;
+  margin-right: 12px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.alert {
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 20px;
+  opacity: 0;
+  transition: 1s;
+}
+
+.save {
+  display: inline-block;
+  padding: 0 3px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 3px;
+  color: #fff;
+  border: 1px solid #46b8da;
+  margin-left: 6px;
+  background-color: #46b8da;
+
+  &:hover {
+    cursor: pointer;
   }
 }

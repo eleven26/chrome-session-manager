@@ -4,11 +4,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="popup.js"></script>
-<link rel="stylesheet" href="popup.css">
+<link rel="stylesheet" href="popup.css?v=1.0">
 </head>
 <body>
 <div class="container">
-	<h3>sessions：</h3>
+	<h3>sessions：
+        <a class="alert"></a>
+        <a class="clear">清除当前页面cookie</a>
+    </h3>
 	<dl id="list">
         <!--<dd>-->
             <!--<input type="text" value="test">-->
@@ -18,8 +21,8 @@
         <!--</dd>-->
 
         <dd>
-            <input type="text" value="">
-            <a class="save">save</a>
+            <input id="input" type="text">
+            <span class="save">save</span>
         </dd>
     </dl>
 </div>

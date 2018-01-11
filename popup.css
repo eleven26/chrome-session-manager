@@ -11,7 +11,8 @@ html, body {
   .container dl dd {
     margin-top: 10px; }
     .container dl dd input {
-      padding-left: 0;
+      height: 16px;
+      padding-left: 5px;
       margin-left: 0; }
     .container dl dd a {
       padding-left: 5px;
@@ -19,5 +20,34 @@ html, body {
       text-decoration: underline; }
       .container dl dd a:hover {
         cursor: pointer; }
+
+.clear {
+  font-size: 12px;
+  font-weight: normal;
+  color: blue;
+  float: right;
+  margin-right: 12px; }
+  .clear:hover {
+    cursor: pointer; }
+
+.alert {
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 20px;
+  opacity: 0;
+  transition: 1s; }
+
+.save {
+  display: inline-block;
+  padding: 0 3px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 3px;
+  color: #fff;
+  border: 1px solid #46b8da;
+  margin-left: 6px;
+  background-color: #46b8da; }
+  .save:hover {
+    cursor: pointer; }
 
 /*# sourceMappingURL=popup.css.map */
