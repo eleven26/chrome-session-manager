@@ -1,6 +1,8 @@
 # chrome-session-manager
 chrome插件，保存当前tab的当前状态的所有cookie，可以保存多个状态，并且可以还原，后续可以恢复到某一个状态。
 
+下载地址: [chrome商店](https://chrome.google.com/webstore/detail/session-manager/elpjlocchiofljaeodagpefdhlbnbffb), [百度云](https://pan.baidu.com/s/1dGee5yh)
+
 ### 主要用处
 * 保存同一个网站的多个 session, 比如一个管理后台, 需要在不同角色之间切换。
 
